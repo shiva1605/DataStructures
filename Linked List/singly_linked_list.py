@@ -34,7 +34,7 @@ class LinkedList:
         return self.__size
 
     def clear(self):
-        temp = self.__head()
+        temp = self.__head
         while(temp!=None):
             temp1 = temp.get_next()
             temp.set_data(None)
@@ -68,7 +68,7 @@ class LinkedList:
     def add(self, data):
         self.__add_last(data)
     
-    def remove_first(self): #Deletes the first node and returns the data in it. Returns None if Linked list is already empty
+    def __remove_first(self): #Deletes the first node and returns the data in it. Returns None if Linked list is already empty
         node = None #Node to be deleted
         if(self.is_empty()):
             print('Linked List Empty!')
@@ -80,7 +80,7 @@ class LinkedList:
                 self.__tail = None
             self.__size -= 1
             return node.get_data()
-    def remove_last(self):
+    def __remove_last(self):
         if(self.is_empty()):
             print('Linked List Empty!')
             return
@@ -122,10 +122,10 @@ class LinkedList:
         elif(self.is_empty()):
             print('Linked List Empty')
         elif(index==0):
-            return self.remove_first()
+            return self.__remove_first()
         elif(index==self.__size-1):
             print('Removal Last')
-            return self.remove_last()
+            return self.__remove_last()
         else:
             temp = self.__head
             temp1 = None
@@ -153,27 +153,11 @@ class LinkedList:
             temp = temp.get_next()
 
 
-
 my_linked_list = LinkedList()
 my_linked_list.add(1)
 my_linked_list.add(2)
 my_linked_list.add(3)
 my_linked_list.display()
-# my_linked_list.insert(5, 0)
-# print('After Insertion')
-# my_linked_list.display()
-# my_linked_list.insert(6, 1)
-# print('After Insertion')
-# my_linked_list.display()
-# my_linked_list.insert(4, 1)
-# print('After Insertion')
-# my_linked_list.display()
-# my_linked_list.insert(3, 0)
-# print('After Insertion')
-# my_linked_list.display()
-# my_linked_list.insert(8, 4)
-# print('After Insertion')
-# my_linked_list.display()
 
 
 
