@@ -1,44 +1,24 @@
 # Python Implementation of Data Structures
-## _Singly Linked List_
 
 
 
 
-A singly linked list is a type of linked list that is unidirectional, that is, it can be traversed in only one direction from head to the last node (tail). Each element in a linked list is called a node. A single node contains data and a pointer to the next node which helps in maintaining the structure of the list..
 
+A data structure is a specialized format for organizing, processing, retrieving and storing data.
+In this repo, I have implemented the most common data structures used in Software Engineering.
+For any Data Structure, at the very least, one know how to access, update and traverse over the elements.
 
-## Methods Implemented
+## Data Structures Implemented
 
-Below are the few methods implemented for Singly Linked List.
-
-
-| Method | Details | Worst Case Complexity (Big-O) |
-| ------ | ------ | ------ |
-| clear() | Empties the linked list | O(n)
-| add() | Adds Element at the end of the Linked List | O(1)
-| insert(index) | Inserts element at a specific position | O(n)
-| remove(index) | Removes element from a specific position | O(n)
-| display() | Traverses and Prints each element in the Linked List | O(n)
-
-
-## _Doubly Linked List_
+- [Linked List]
+- [Stack]
 
 
 
 
-A Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
+   [Linked List]: <https://github.com/shiva1605/DataStructures/tree/dev/Linked%20List>
+   [Stack]: <https://github.com/shiva1605/DataStructures/tree/dev/Stack>
+   
 
-## Methods Implemented
-
-Below are the few methods implemented for Singly Linked List.
-
-
-| Method | Details | Worst Case Complexity (Big-O) |
-| ------ | ------ | ------ |
-| clear() | Empties the linked list | O(n)
-| add() | Adds Element at the end of the Linked List | O(1)
-| insert(index) | Inserts element at a specific position | O(n)
-| remove(index) | Removes element from a specific position | O(n)
-| displayForward() | Traverses Forward in the Linked List and Prints each element in the Linked List | O(n)
-| displayReverse() | Traverses Backwards in the Linked List and Prints each element in the Linked List | O(n)

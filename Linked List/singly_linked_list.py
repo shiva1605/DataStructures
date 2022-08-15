@@ -178,6 +178,8 @@ class LinkedList:
             temp = temp.get_next()
 
 
+'''
+Examples of calling different methods
 
 my_linked_list = LinkedList()
 my_linked_list.add(1)
@@ -200,3 +202,4 @@ my_linked_list.clear()
 print('===After Clear===')
 print('Diplaying Elements')
 my_linked_list.display()
+'''
